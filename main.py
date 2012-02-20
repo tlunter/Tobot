@@ -1,6 +1,6 @@
 from Tobot import Tobot
-from Interpreter import Interpreter
+from IRCInterpreter import IRCInterpreter
 
-interpret = Interpreter()
+tobot = Tobot()
 
-tobot = Tobot(interpret)
+IRCinterpreter = IRCInterpreter(tobot)

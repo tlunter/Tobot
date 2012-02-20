@@ -1,3 +1,6 @@
 from Tobot import Tobot
+from Interpreter import Interpreter
 
-tobot = Tobot()
+interpret = Interpreter()
+
+tobot = Tobot(interpret)

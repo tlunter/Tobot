@@ -29,7 +29,6 @@ class Tobot:
 			for line in lines:
 				
 				checkPing = line.split()
-				if checkPing[0] == 'PING':
 					
 					pongLine = 'PONG {0}\r\n'.format(checkPing[1])
 					print pongLine

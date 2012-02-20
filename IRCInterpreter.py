@@ -64,7 +64,7 @@ class IRCInterpreter:
 							print '\nPrivate Message for {0}!'.format(self._tobot.getName())
 							print 'From: {0}'.format(username)
 							print 'Message: {0}\n'.format(message)
-							output = self._interpreter.interpret(username, message)
+							output = self._tobot.interpret(username, message)
 					
 							lines = output.split('\n')
 					

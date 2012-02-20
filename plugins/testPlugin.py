@@ -1,5 +1,4 @@
-
-action = 'tP'
+action = 'print'
 
 class testPlugin:
 	
@@ -7,7 +6,7 @@ class testPlugin:
 		
 		if data == '':
 			
-			return 'You didn\'t input anything :('
+			return 'You didn\'t input anything'
 			
 		else:
 			
